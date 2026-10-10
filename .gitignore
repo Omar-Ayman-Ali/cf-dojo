@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+env/
+venv/
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+
+# Dojo local judge / stress run files
+stress/
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log

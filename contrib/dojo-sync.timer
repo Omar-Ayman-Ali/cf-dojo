@@ -1,0 +1,10 @@
+[Unit]
+Description=dojo: refresh Codeforces data every 30 minutes
+
+[Timer]
+OnCalendar=*-*-* 08..23:00/30
+Persistent=true
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target
